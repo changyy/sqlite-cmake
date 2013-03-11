@@ -5,7 +5,7 @@ Testing @ Mac OS 10.8.2
 $ git clone --recursive git://github.com/changyy/sqlite-cmake.git
 $ cd sqlite-cmake
 $ mkdir build
-$ cmake .. -DPCRE_SUPPORT_UTF:bool=ON
+$ cmake .. -DPCRE_SUPPORT_UTF:bool=ON -DBUILD_SHARED_LIBS:bool=ON
 $ make
 $ ls lib/
 libsqlite3.a            libsqlite3.dylib        libsqlite3_regexp.dylib
